@@ -8,8 +8,8 @@ const missions = [
   {
     title: "Pembebasan Tan Malaka",
     image: mission1,
-    year: "1944",
-    description: "Infiltrasi dan pembebasan tokoh pergerakan dari pengawasan Kempetai Jepang melalui jaringan bawah tanah.",
+    year: "1948",
+    description: "Operasi pembebasan Tan Malaka melalui jaringan bawah tanah; strategi ditentukan pemain dan kemampuan terbuka bertahap sesuai peringkat di leaderboard.",
     objectives: [
       "Investigasi lokasi penahanan",
       "Dekripsi kode sandi rahasia",
@@ -28,10 +28,10 @@ const missions = [
     ]
   },
   {
-    title: "Penyelamatan Sutan Sjahrir",
+    title: "Penyelamatan Rasuna Said ",
     image: mission3,
     year: "1945",
-    description: "Misi penyelamatan perdana menteri pertama Indonesia dari ancaman penangkapan oleh pihak kolonial.",
+    description: "Misi penyelamatan Rasuna Said di Penjara Bulu Semarang.",
     objectives: [
       "Pengumpulan intelijen",
       "Penyamaran dan infiltrasi",
@@ -102,21 +102,7 @@ export const Missions = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
-
-          {/* Organization Info */}
-          <div className="text-center space-y-4 pt-8">
-            <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-primary/20">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold text-foreground mb-3">Organisasi Semburat</h3>
-                <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                  Kelompok fiktif yang terinspirasi dari jejaring pergerakan pemuda, ulama, wartawan, dan intelektual 
-                  yang menolak tunduk pada represi kolonial di era 1944-1945. Setiap anggota membawa keahlian unik 
-                  untuk memastikan kemerdekaan Indonesia tetap terwujud.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
+          </div> 
         </div>
       </div>
     </section>

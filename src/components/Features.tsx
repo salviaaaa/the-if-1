@@ -1,7 +1,13 @@
-import { Bot, Sparkles, Heart, Radio, Map, Lock } from "lucide-react";
+import { Bot, Sparkles, Heart, Radio, Map, Lock, User } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const features = [
+  {
+    icon: User,
+    title: "Avatar & Progres Pemain",
+    description: "Avatar fleksibel (mix gender); kemampuan/kekuatan ditemukan bertahap sesuai progres dan ranking di leaderboard.",
+    color: "text-primary"
+  },
   {
     icon: Bot,
     title: "AI Historical Guide",

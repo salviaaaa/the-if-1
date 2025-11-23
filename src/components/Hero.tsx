@@ -37,12 +37,12 @@ export const Hero = () => {
 
           {/* Tagline */}
           <div className="text-3xl md:text-4xl font-semibold text-foreground italic">
-            "Play History, Live Culture"
+            "Play History, Live Culture"1920
           </div>
 
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Aplikasi video gim edukatif bertema sejarah yang menggabungkan perjuangan kemerdekaan Indonesia (1920-1945) 
+            Aplikasi video gim edukatif bertema sejarah yang menggabungkan perjuangan kemerdekaan Indonesia (-1948) 
             dengan teknologi interaktif Roblox. Belajar sejarah tidak pernah seasyik ini.
           </p>
 
@@ -64,11 +64,11 @@ export const Hero = () => {
               <div className="text-sm text-muted-foreground">Misi Historis</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-secondary">1920-1945</div>
+              <div className="text-3xl md:text-4xl font-bold text-secondary">1934, 1945, 1948</div>
               <div className="text-sm text-muted-foreground">Era Perjuangan</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-accent">157.6M+</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent">1M+</div>
               <div className="text-sm text-muted-foreground">Potensi Pemain</div>
             </div>
           </div>

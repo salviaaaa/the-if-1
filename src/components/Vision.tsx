@@ -88,10 +88,12 @@ export const Vision = () => {
                 <div className="text-3xl font-bold text-secondary">93.52%</div>
                 <div className="text-sm text-muted-foreground">Remaja di Media Sosial</div>
               </div>
-              <div className="space-y-2">
-                <div className="text-3xl font-bold text-accent">40M+</div>
-                <div className="text-sm text-muted-foreground">Game di Roblox</div>
-              </div>
+
+            <div className="space-y-2">
+              <div className="text-3xl md:text-4xl font-bold text-accent">1M+</div>
+              <div className="text-sm text-muted-foreground">Potensi Pemain</div>
+            </div>
+            
               <div className="space-y-2">
                 <div className="text-3xl font-bold text-primary">Gen Z</div>
                 <div className="text-sm text-muted-foreground">Target Audiens</div>

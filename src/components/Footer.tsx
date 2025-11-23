@@ -32,7 +32,7 @@ export const Footer = () => {
                   <Building2 className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
                   <div>
                     <div className="font-medium text-foreground">Tim PranaTech</div>
-                    <div className="text-xs">Developer & Creator</div>
+                    <div className="text-xs">Developer & Cultural Research</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-2 text-muted-foreground">
@@ -64,7 +64,7 @@ export const Footer = () => {
                   className="flex items-center gap-2 text-primary hover:text-primary/80 transition-smooth"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>info@pranatech.id</span>
+                  <span>pranatech25@gmail.com</span>
                 </a>
               </div>
             </div>
